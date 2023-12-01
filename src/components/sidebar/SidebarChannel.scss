@@ -1,0 +1,13 @@
+.sidebarChannel {
+    padding: 10px;
+
+    h4 {
+        color: gray;
+        cursor: pointer;
+
+        &:hover {
+            color: aliceblue;
+            background-color: gray;
+        }
+    }
+}

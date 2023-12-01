@@ -1,0 +1,32 @@
+.chatHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    .chatHeaderLeft {
+        padding-left: 15px;
+        h3 {
+            color: aliceblue;
+        }
+    }
+    .chatHeaderRight {
+        padding-right: 15px;
+        display: flex;
+        align-items: center;
+        span {
+            margin: 10px;
+            cursor: pointer;
+        }
+        .chatHeaderSearch {
+            background-color: beige;
+            padding: 3px;
+            border-radius: 2px;
+            input {
+                background: transparent;
+                outline: none;
+                border: none;
+            }
+        }
+    }
+}
