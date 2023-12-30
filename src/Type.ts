@@ -6,3 +6,10 @@ export interface InitialUserStatus {
         displayName: string;
     };
 }
+
+export interface InitialChannelStatus {
+    channelId: string | null;
+    channelName: string | null;
+}
+
+

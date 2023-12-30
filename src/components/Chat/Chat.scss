@@ -1,12 +1,13 @@
 .chat {
     display: flex;
     flex-direction: column;
-    background-color: plum;
+    background-color: rgb(54, 47, 63);
     height: 100vh;
     flex: 0.95;
     flex-grow: 1;
     .chatMessage {
-        flex-grow: 1;
+        height: 100vh;
+        overflow-y: scroll;
     }
 
     .chatInput {
