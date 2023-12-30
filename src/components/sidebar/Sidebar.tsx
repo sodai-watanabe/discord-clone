@@ -73,7 +73,6 @@ const Sidebar = () => {
             <div className="sidebarAccount">
               <img src={user?.photo} alt="" onClick={() => auth.signOut()}/>
               <h4>{user?.displayName}</h4>
-              <span>{user?.uid.substring(0,4)}</span>
             </div>
             <div className="sidebarVoice">
               <span>$</span>
